@@ -21,7 +21,7 @@ The platform offers:
 
 Frontend Framework: React (with TypeScript)
 
-Build Tool: Vite
+Build Tool: Vite,yolo v8,ML
 
 Styling: Tailwind CSS + shadcn-ui
 
@@ -65,7 +65,7 @@ To deploy updates:
 
 Push changes to your GitHub repo.
 
-They will automatically reflect on Lovable deployment.
+They will automatically reflect on netlify deployment.
 
 Features to Add (Future Scope)
 
