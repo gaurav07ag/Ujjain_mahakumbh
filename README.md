@@ -35,26 +35,34 @@ Follow these steps to run the project locally:
 
 
 # Step 1: Clone the repository
-git clone <YOUR_GIT_URL>
+git clone 
 
 # Step 2: Move into the project directory
-cd <YOUR_PROJECT_NAME>
+cd Ujjain_mahakumbh
 
 # Step 3: Install dependencies
 npm install
 
+
+
 # Step 4: Run the development server
 npm run dev
 
-├── src/              # Main source code
-│   ├── components/   # Reusable UI components
-│   ├── pages/        # Application pages
-│   ├── assets/       # Static assets (images, icons, etc.)
-│   └── utils/        # Helper functions
-├── public/           # Static public files
-├── package.json      # Project dependencies
-├── tailwind.config.ts# Tailwind CSS config
-└── vite.config.ts    # Vite configuration
+```
+├── src/ # Main source code
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Application pages
+│ ├── assets/ # Static assets (images, icons, etc.)
+│ └── utils/ # Helper functions
+├── public/ # Static public files
+├── package.json # Project dependencies
+├── tailwind.config.ts # Tailwind CSS config
+└── vite.config.ts # Vite configuration
+```
+
+
+
+
 Deployment
 
 This project is deployed and accessible here:
