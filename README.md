@@ -35,7 +35,7 @@ Follow these steps to run the project locally:
 
 
 # Step 1: Clone the repository
-git clone 
+git clone https://github.com/gaurav07ag
 
 # Step 2: Move into the project directory
 cd Ujjain_mahakumbh
