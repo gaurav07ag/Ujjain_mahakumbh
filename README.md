@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+🛕 Ujjain Mahakumbh – Crowd Insight Platform
+ Live Demo : https://ujjainmahakumbh.netlify.app/
 
-## Project info
+Click here to view the deployed project
 
-**URL**: https://lovable.dev/projects/8e89765b-495d-44c8-9933-8a95a9594fd8
+Project Overview
 
-## How can I edit this code?
+This project is a web-based platform designed to provide real-time insights and solutions for crowd management during the Ujjain Mahakumbh. It leverages modern web technologies to ensure scalability, speed, and an intuitive user interface.
 
-There are several ways of editing your application.
+The platform offers:
 
-**Use Lovable**
+ Crowd analytics & insights
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8e89765b-495d-44c8-9933-8a95a9594fd8) and start prompting.
+ Interactive visualizations
 
-Changes made via Lovable will be committed automatically to this repo.
+ Fast and responsive UI built with React + Vite
 
-**Use your preferred IDE**
+ Beautiful design using TailwindCSS + shadcn-ui
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Frontend Framework: React (with TypeScript)
 
-Follow these steps:
+Build Tool: Vite
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Styling: Tailwind CSS + shadcn-ui
+
+UI Components: Reusable, modern, and accessible design system
+
+Deployment: netlify
+
+Getting Started
+
+Follow these steps to run the project locally:
+
+
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Move into the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Run the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+├── src/              # Main source code
+│   ├── components/   # Reusable UI components
+│   ├── pages/        # Application pages
+│   ├── assets/       # Static assets (images, icons, etc.)
+│   └── utils/        # Helper functions
+├── public/           # Static public files
+├── package.json      # Project dependencies
+├── tailwind.config.ts# Tailwind CSS config
+└── vite.config.ts    # Vite configuration
+Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project is deployed and accessible here:
+👉 Live Project Link : https://ujjainmahakumbh.netlify.app/
 
-**Use GitHub Codespaces**
+To deploy updates:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+Push changes to your GitHub repo.
 
-This project is built with:
+They will automatically reflect on Lovable deployment.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Features to Add (Future Scope)
 
-## How can I deploy this project?
+ Authentication & role-based access
 
-Simply open [Lovable](https://lovable.dev/projects/8e89765b-495d-44c8-9933-8a95a9594fd8) and click on Share -> Publish.
+ Progressive Web App (PWA) support
 
-## Can I connect a custom domain to my Lovable project?
+ Integration with live IoT/crowd sensors
 
-Yes, you can!
+ Real-time notifications
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+ Contributors
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Gaurav Singh (Owner)
+
+Open to collaboration – feel free to fork & contribute!
+
